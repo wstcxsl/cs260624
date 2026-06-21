@@ -20,5 +20,5 @@ COPY config.json .
 
 USER appuser
 
-EXPOSE 8080
+EXPOSE 8080 8081
 CMD ["./sing-box", "run", "-c", "config.json"]
